@@ -1,0 +1,194 @@
+
+> shop@1.0.0 build
+> next build
+
+  [1m[38;2;173;127;168m▲ Next.js 14.2.3[39m[22m
+
+[?25l [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ..[2K[1G [37m[1m [22m[39m Linting and checking validity of types  ...[2K[1G [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G[?25h[31m
+Failed to compile.[39m
+[?25l [37m[1m [22m[39m Linting and checking validity of types  .[2K[1G[?25h
+./src/components/Breadcrumb.tsx
+1:1  Error: Filename is not in kebab case. Rename it to `breadcrumb.tsx`.  unicorn/filename-case
+10:47  Warning: Function component is not a function declaration  react/function-component-definition
+12:60  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+12:70  Warning: Curly braces are unnecessary here.  react/jsx-curly-brace-presence
+16:14  Warning: Potential leaked value that might cause unintentionally rendered values or rendering crashes  react/jsx-no-leaked-render
+21:14  Warning: Potential leaked value that might cause unintentionally rendered values or rendering crashes  react/jsx-no-leaked-render
+
+./src/components/Layout.tsx
+1:1  Error: Filename is not in kebab case. Rename it to `layout.tsx`.  unicorn/filename-case
+12:39  Warning: Function component is not a function declaration  react/function-component-definition
+15:28  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+
+./src/components/Navbar.tsx
+1:1  Error: Filename is not in kebab case. Rename it to `navbar.tsx`.  unicorn/filename-case
+2:45  Error: 'Box' is defined but never used. Allowed unused vars must match /^_/u.  no-unused-vars
+2:45  Error: 'Box' is defined but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+6:26  Warning: Function component is not a function declaration  react/function-component-definition
+7:11  Error: 'router' is assigned a value but never used. Allowed unused vars must match /^_/u.  no-unused-vars
+7:11  Error: 'router' is assigned a value but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+8:11  Error: 'theme' is assigned a value but never used. Allowed unused vars must match /^_/u.  no-unused-vars
+8:11  Error: 'theme' is assigned a value but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+11:35  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+11:45  Warning: Curly braces are unnecessary here.  react/jsx-curly-brace-presence
+
+./src/components/RecipeContent.tsx
+1:1  Error: Filename is not in kebab case. Rename it to `recipe-content.tsx`.  unicorn/filename-case
+22:46  Warning: Function component is not a function declaration  react/function-component-definition
+26:32  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+27:35  Warning: Curly braces are unnecessary here.  react/jsx-curly-brace-presence
+27:47  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+28:42  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+31:45  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+36:45  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+45:45  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+54:45  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+64:45  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+66:45  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+74:39  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+74:54  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+75:52  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+75:90  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+75:105  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+75:137  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+78:52  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+78:68  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+78:108  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+78:139  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+84:32  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+86:21  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+86:48  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+
+./src/components/Submenu.tsx
+1:1  Error: Filename is not in kebab case. Rename it to `submenu.tsx`.  unicorn/filename-case
+5:27  Warning: Function component is not a function declaration  react/function-component-definition
+6:11  Error: 'theme' is assigned a value but never used. Allowed unused vars must match /^_/u.  no-unused-vars
+6:11  Error: 'theme' is assigned a value but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+9:35  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+9:45  Warning: Curly braces are unnecessary here.  react/jsx-curly-brace-presence
+
+./src/context/ThemeContext.tsx
+1:1  Error: Filename is not in kebab case. Rename it to `theme-context.tsx`.  unicorn/filename-case
+7:57  Error: Unexpected empty method 'toggleTheme'.  @typescript-eslint/no-empty-function
+9:35  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+11:66  Warning: Function component is not a function declaration  react/function-component-definition
+16:13  Error: Unnecessary conditional, value is always truthy.  @typescript-eslint/no-unnecessary-condition
+39:28  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+
+./src/hooks/axios.ts
+3:1  Warning: `axios` import should occur before import of `../utils/axios`  import/order
+3:1  Warning: All imports in the declaration are only used as types. Use `import type`.  @typescript-eslint/consistent-type-imports
+7:17  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+8:22  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+9:21  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+12:92  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+13:27  Error: Unsafe array destructuring of a tuple element with an `any` value.  @typescript-eslint/no-unsafe-assignment
+16:10  Error: Unsafe array destructuring of a tuple element with an `any` value.  @typescript-eslint/no-unsafe-assignment
+17:10  Error: Unsafe array destructuring of a tuple element with an `any` value.  @typescript-eslint/no-unsafe-assignment
+17:46  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+35:7  Error: Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.  @typescript-eslint/no-floating-promises
+39:22  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+40:5  Error: Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.  @typescript-eslint/no-floating-promises
+43:21  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+43:27  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+
+./src/pages/_app.tsx
+2:1  Warning: All imports in the declaration are only used as types. Use `import type`.  @typescript-eslint/consistent-type-imports
+6:1  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+
+./src/pages/index.tsx
+4:18  Warning: Function component is not a function declaration  react/function-component-definition
+4:21  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+6:9  Warning: Fragments should contain more than one child - otherwise, there’s no need for a Fragment at all.  react/jsx-no-useless-fragment
+7:42  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+7:49  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+8:42  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+11:45  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+16:53  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+
+./src/pages/recipes/[category]/[title].tsx
+1:1  Warning: All imports in the declaration are only used as types. Use `import type`.  @typescript-eslint/consistent-type-imports
+3:1  Warning: All imports in the declaration are only used as types. Use `import type`.  @typescript-eslint/consistent-type-imports
+14:16  Warning: Function component is not a function declaration  react/function-component-definition
+14:70  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+15:28  Error: Unsafe array destructuring of a tuple element with an `any` value.  @typescript-eslint/no-unsafe-assignment
+15:37  Error: Unsafe array destructuring of a tuple element with an `any` value.  @typescript-eslint/no-unsafe-assignment
+18:42  Error: Unsafe member access .message on an `any` value.  @typescript-eslint/no-unsafe-member-access
+28:11  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+30:11  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+30:19  Error: Unsafe call of an `any` typed value.  @typescript-eslint/no-unsafe-call
+30:27  Error: Unsafe member access .map on an `any` value.  @typescript-eslint/no-unsafe-member-access
+31:5  Error: Unexpected console statement.  no-console
+32:14  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+36:62  Error: Invalid type "string | string[] | undefined" of template literal expression.  @typescript-eslint/restrict-template-expressions
+36:87  Error: Invalid type "string | string[] | undefined" of template literal expression.  @typescript-eslint/restrict-template-expressions
+37:11  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+41:13  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+
+./src/pages/recipes/[category]/index.tsx
+1:1  Warning: All imports in the declaration are only used as types. Use `import type`.  @typescript-eslint/consistent-type-imports
+2:8  Error: 'Layout' is defined but never used. Allowed unused vars must match /^_/u.  no-unused-vars
+2:8  Error: 'Layout' is defined but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+4:1  Warning: `next/link` import should occur before import of `@/components/Layout`  import/order
+5:1  Warning: `@mui/material` import should occur before import of `@/components/Layout`  import/order
+6:1  Warning: All imports in the declaration are only used as types. Use `import type`.  @typescript-eslint/consistent-type-imports
+15:22  Warning: Function component is not a function declaration  react/function-component-definition
+15:72  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+16:28  Error: Unsafe array destructuring of a tuple element with an `any` value.  @typescript-eslint/no-unsafe-assignment
+16:37  Error: Unsafe array destructuring of a tuple element with an `any` value.  @typescript-eslint/no-unsafe-assignment
+19:42  Error: Unsafe member access .message on an `any` value.  @typescript-eslint/no-unsafe-member-access
+23:41  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+24:38  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+29:45  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+29:69  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+29:76  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+29:148  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+35:53  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+38:25  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+38:52  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+38:83  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+48:11  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+49:11  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+49:19  Error: Unsafe call of an `any` typed value.  @typescript-eslint/no-unsafe-call
+49:27  Error: Unsafe member access .map on an `any` value.  @typescript-eslint/no-unsafe-member-access
+51:14  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+55:62  Error: Invalid type "string | string[] | undefined" of template literal expression.  @typescript-eslint/restrict-template-expressions
+56:11  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+60:13  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+
+./src/pages/recipes/index.tsx
+1:10  Error: 'GetStaticProps' is defined but never used. Allowed unused vars must match /^_/u.  no-unused-vars
+1:10  Error: 'GetStaticProps' is defined but never used. Allowed unused vars must match /^_/u.  @typescript-eslint/no-unused-vars
+6:1  Warning: All imports in the declaration are only used as types. Use `import type`.  @typescript-eslint/consistent-type-imports
+11:21  Warning: Function component is not a function declaration  react/function-component-definition
+11:80  Warning: Missing return type on function.  @typescript-eslint/explicit-function-return-type
+12:28  Error: Unsafe array destructuring of a tuple element with an `any` value.  @typescript-eslint/no-unsafe-assignment
+12:37  Error: Unsafe array destructuring of a tuple element with an `any` value.  @typescript-eslint/no-unsafe-assignment
+15:42  Error: Unsafe member access .message on an `any` value.  @typescript-eslint/no-unsafe-member-access
+20:38  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+25:45  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+25:69  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+25:76  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+25:148  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+31:53  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+34:25  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+34:52  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+34:83  Warning: Props should be sorted alphabetically  react/jsx-sort-props
+
+./src/types/index.tsx
+16:13  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/utils/axios.ts
+17:9  Error: Unexpected console statement.  no-console
+19:10  Error: Unexpected console statement.  no-console
+26:12  Error: Expected the Promise rejection reason to be an Error.  @typescript-eslint/prefer-promise-reject-errors
+38:16  Error: Unsafe member access .response on an `any` value.  @typescript-eslint/no-unsafe-member-access
+40:7  Error: Unexpected console statement.  no-console
+42:12  Error: Expected the Promise rejection reason to be an Error.  @typescript-eslint/prefer-promise-reject-errors
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+[?25l [37m[1m [22m[39m Linting and checking validity of types  .[?25h[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mLifecycle script `build` failed with error:[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mError: command failed[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m  in workspace: shop@1.0.0[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m  at location: /Users/vuminhkhoi1802/Documents/TakeHomeTests/scentronix-frontend-application/apps/shop[0m 
+[0m
